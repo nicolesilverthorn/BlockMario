@@ -1,0 +1,54 @@
+body{
+    background: #222;
+}
+#header{	
+    color: #d2d2d2;
+	font-size: 20px;
+	font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+	filter: drop-shadow(3px 3px 4px #FF0000);
+}
+#lvl, #life, #score, #hiScore {
+	 font-size: 18px;
+	 font-family: monospace;
+	 font-weight: bold;	 
+	 color: #d2d2d2;
+	 text-align: left;
+	 margin-left: 30px;
+}
+.background{
+    table-layout: fixed;
+    border-spacing: 0;
+}
+.background td{
+    padding:  0;
+}
+.lava, .actor{
+    background: #e55;
+}
+.wall{
+    background: #444;
+    border: solid 3px #333;
+    box-sizing: content-box;
+}
+.actor{
+    position: absolute;
+}
+.coin{
+    background: #e2e838;
+	border-radius: 50%;
+}
+.player{
+    background: #335699;
+}
+.lost .player{
+    background: #a04040;
+}
+.won .player {
+    background: green;
+}
+.game{
+    position: relative;
+    overflow: hidden;
+}
